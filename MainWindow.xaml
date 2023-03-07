@@ -1,0 +1,152 @@
+﻿<Window x:Class="T5_BodilyInteraction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T5_BodilyInteraction"
+        mc:Ignorable="d"
+        Title="Planets" Height="471.075" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Grid Margin="0,0,0.2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="289.6"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Name="depthImg" Stretch="Fill" VerticalAlignment="Top" Width="578" Height="442" Grid.ColumnSpan="4" Margin="0,0,0,-0.4" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" />
+        <Image HorizontalAlignment="Right" Margin="0,0,-0.4,0" Name="colorImg" Stretch="Fill" VerticalAlignment="Top" Grid.Column="3" Width="216" Height="127" />
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Grid.ColumnSpan="3">
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="549" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="621" RenderTransformOrigin="0.5,0.5" Canvas.Left="-205" Canvas.Top="-94">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-5.669" AngleX="-0.269"/>
+                        <RotateTransform Angle="-62.091"/>
+                        <TranslateTransform X="22.537" Y="13.826"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="515" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="614" RenderTransformOrigin="0.5,0.5" Canvas.Left="-273" Canvas.Top="-157">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-5.136" AngleX="-0.269"/>
+                        <RotateTransform Angle="-64.55"/>
+                        <TranslateTransform X="20.325" Y="12.641"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="457" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="512" RenderTransformOrigin="0.5,0.5" Canvas.Left="-250" Canvas.Top="-102">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-5.136" AngleX="-0.269"/>
+                        <RotateTransform Angle="-63.64"/>
+                        <TranslateTransform X="20.325" Y="12.641"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="362" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="481" RenderTransformOrigin="0.5,0.5" Canvas.Left="-233" Canvas.Top="-112">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-77.004"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="298" Stroke="#CCFAFAFA" VerticalAlignment="Top" Width="362" Canvas.Left="-224" Canvas.Top="-67" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-21.778"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="127" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="144" RenderTransformOrigin="0.5,0.5" Canvas.Left="-40" Canvas.Top="-18">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-23.196"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="567" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="675" RenderTransformOrigin="0.5,0.5" Canvas.Left="-161" Canvas.Top="-95">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-5.997" AngleX="-0.269"/>
+                        <RotateTransform Angle="-62.091"/>
+                        <TranslateTransform X="24.142" Y="14.686"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#00F4F4F5" HorizontalAlignment="Left" Height="666" Stroke="#CCFFFFFF" VerticalAlignment="Top" Width="691" RenderTransformOrigin="0.5,0.5" Canvas.Left="-149" Canvas.Top="-144">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-5.997" AngleX="-0.269"/>
+                        <RotateTransform Angle="-62.091"/>
+                        <TranslateTransform X="24.142" Y="14.686"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Image HorizontalAlignment="Left" Height="403" VerticalAlignment="Top" Width="488" Source="—Pngtree—beautiful black starry background material_912056.jpg" Canvas.Left="568" Canvas.Top="109"/>
+            <Image x:Name="murcury" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="30" Source="murcury.png" Canvas.Left="40" Canvas.Top="88"/>
+            <Image x:Name="venus" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="venus.png" Canvas.Left="72" Canvas.Top="147"/>
+            <Image x:Name="mars" HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="64" Source="mars.png" RenderTransformOrigin="0.5,0.5" Canvas.Left="172" Canvas.Top="261">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="24.737"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="jupiter" HorizontalAlignment="Left" Height="84" VerticalAlignment="Top" Width="84" Source="jupiter.png" RenderTransformOrigin="0.5,0.5" Canvas.Left="245" Canvas.Top="165">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="25.694"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="saturn" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="118" Source="saturn.png" RenderTransformOrigin="0.5,0.5" Canvas.Left="323" Canvas.Top="289">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="22.379"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="neptune" HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="49" Source="neptune.png" RenderTransformOrigin="0.5,0.5" Canvas.Left="512" Canvas.Top="259">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="6.554"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image Height="100" Width="100" Canvas.Left="44" Canvas.Top="51"/>
+            <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="68,135,0,0"/>
+            <Image x:Name="earth" Source="earth.png" Stretch="Fill" Height="72" Canvas.Left="44" Canvas.Top="240" Width="75"/>
+            <Label Content="You are here&#xA;            ↓ " HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Papyrus" Foreground="White" RenderTransformOrigin="0.192,0.475" Canvas.Left="40" Canvas.Top="198"/>
+            <Image HorizontalAlignment="Left" Height="100" Margin="175,285,0,0" VerticalAlignment="Top" Width="100"/>
+            <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Grid.Column="1" Canvas.Left="68" Canvas.Top="178"/>
+            <Image x:Name="uraImg" Source="Uranus.png" Stretch="Fill" Grid.Column="1" Height="68" Canvas.Left="440" Canvas.Top="83" Width="68"/>
+        </Canvas>
+        <TextBox x:Name="introduction" Grid.Column="3" HorizontalAlignment="Left" Height="301" Margin="79,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="introduction_TextChanged" Background="#01151212" FontFamily="Papyrus" FontSize="16" Foreground="White" FontWeight="Bold" BorderBrush="#00ABADB3" SelectionBrush="#4C879BAD"/>
+    </Grid>
+</Window>
